@@ -38,7 +38,7 @@ jobs:
           branch: ${{ matrix.branch }}
           scope: ${{ matrix.scope }}
           version: "22.0"
-          kernel: linux515
+          kernel: linux65
           code-name: "Plasma-Mobile (Dev)"
           build-mirror: ${{ secrets.BUILD_MIRROR }}
           release-tag: ${{ needs.prepare-release.outputs.release_tag }}
